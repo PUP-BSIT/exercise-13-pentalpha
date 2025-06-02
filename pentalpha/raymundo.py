@@ -47,5 +47,3 @@ def raymundo_profile():
                 print("\nInvalid option. Please try again.")
 
         input()
-
-raymundo_profile()
