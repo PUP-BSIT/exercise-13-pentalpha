@@ -10,6 +10,7 @@ def banzali_profile():
         print("[1] Hobbies")
         print("[2] Fun Fact About Me")
         print("[3] Motto")
+        print("[4] Managbanag - Comment")
         print("[0] Back to the Team Menu")
         print("==================================================")
 
@@ -42,6 +43,9 @@ def banzali_profile():
                         +"all our problems.\n"
                         + "- Lama Yeshe")
                 print("============================================")
+            case '4':
+                system("cls")
+                print("Wow Tallented, i cant even solve a Rubik's cube!\n")
             case '0':
                 print("\nHeading back to the Team Menu...")
                 break

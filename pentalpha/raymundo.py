@@ -9,6 +9,7 @@ def raymundo_profile():
         print("[1] Hobbies")
         print("[2] Fun Fact")
         print("[3] Motto")
+        print("[4] Managbanag - Comment")
         print("[0] Exit")
         print("------------------------------------------")
 
@@ -38,6 +39,11 @@ def raymundo_profile():
                 print("------")
                 print("\n“Design is not just what it looks like and " +
                       "feels like. Design is how it works.” – Steve Jobs")
+                
+            case "4":
+                system("cls")
+                print("Wow so many designs, Very good Angella Jane Raymundo!")
+                print("Keep up the good work!")
 
             case "0":
                 print("\nExiting Raymundo's module...\n")

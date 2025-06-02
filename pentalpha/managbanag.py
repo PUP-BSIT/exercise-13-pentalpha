@@ -10,7 +10,7 @@ def who_am_i():
         print("3. Motto")
         print("0. Exit")
 
-        user_choice = int(input("Enter your choice (1 or 2): "))
+        user_choice = int(input("Enter your choice: "))
 
         match (user_choice):
             case 1:

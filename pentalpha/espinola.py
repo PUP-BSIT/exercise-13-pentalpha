@@ -8,6 +8,7 @@ def espinola_profile():
         print("1. Hobbies")
         print("2. Goals")
         print("3. Motto")
+        print("4. Managbanag - Comment")
         print("0. Exit\n")
 
         menu_choice = int(input("Enter your choice: "))
@@ -20,6 +21,9 @@ def espinola_profile():
             case 3:
                 print("My motto in life is:")
                 print("Hard is part of life. Pick yours.")
+            case 4:
+                print("Wow! Motorist and gamerist at the same time")
+                print("Keep up the good work!")
             case 0:
                 break
             case _:
