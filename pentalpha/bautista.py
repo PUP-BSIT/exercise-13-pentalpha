@@ -1,1 +1,0 @@
-# TODO: (Bautista) Add greetings function
