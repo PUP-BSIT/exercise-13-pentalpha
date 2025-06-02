@@ -21,7 +21,9 @@ def bautista_profile():
                         + "upang buhay ay sumigla'")
             case 0:
                 break
+            case _:
+                print("Error: Wrong Input")
 
-        input()
+        input("Press enter to continue")
                 
         
