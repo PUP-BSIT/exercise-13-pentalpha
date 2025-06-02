@@ -1,7 +1,7 @@
 from os import system
 
 def espinola_profile():
-
+    """ This is a menu that presents the user with a sample profile. """
     while True:
         system('cls')
         print("Hello! I'm Frankie Josh M. Espinola!\n")
@@ -11,7 +11,7 @@ def espinola_profile():
         print("0. Exit\n")
 
         menu_choice = int(input("Enter your choice: "))
-
+    
         match (menu_choice):
             case 1: 
                 print("My hobbies are: Riding Motorcyle, Playing Online Games")
@@ -22,7 +22,5 @@ def espinola_profile():
                 print("Hard is part of life. Pick yours.")
             case 0:
                 break
-            
+        
         input()
-
-espinola_profile()
