@@ -17,7 +17,7 @@ def managbanag_profile():
                 print("I love playing basketball, watching anime,"
                         + " and going to gym")
             case 2:
-                print("I once lost weight from 140kg to 95kg in just 6 months!")
+                print("I once lost weight from 140kg to 95kg in just 6 months")
             case 3:
                 print("'Keep pushing forward, no matter the obstacles!'")
             case 0: 
