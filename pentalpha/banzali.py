@@ -49,4 +49,3 @@ def banzali_profile():
                 print("\nPlease pick a number between 0 and 3.")
             
         input()
-banzali_profile()
