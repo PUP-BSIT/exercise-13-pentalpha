@@ -1,6 +1,6 @@
 from os import system
 
-def who_am_i():
+def managbanag_profile():
     """Function to display information about John Mark E. Managbanag"""
     while (True):
         system("cls")
