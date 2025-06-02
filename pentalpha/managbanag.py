@@ -8,6 +8,7 @@ def who_am_i():
         print("1. Hobbies")
         print("2. Fun Fact")
         print("3. Motto")
+        print("5. Bautista - Comment")
         print("0. Exit")
 
         user_choice = int(input("Enter your choice (1 or 2): "))
@@ -20,6 +21,8 @@ def who_am_i():
                 print("I once lost weight from 140kg to 95kg in just 6 months!")
             case 3:
                 print("'Keep pushing forward, no matter the obstacles!'")
+            case 5:
+                print("I miss your house hehe")
             case 0: 
                 print("Goodbye!")
                 break
