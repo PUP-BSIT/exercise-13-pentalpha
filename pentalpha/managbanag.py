@@ -1,6 +1,6 @@
 from os import system
 
-def who_am_i():
+def managbanag_profile():
     """Function to display information about John Mark E. Managbanag"""
     while (True):
         system("cls")
@@ -10,14 +10,14 @@ def who_am_i():
         print("3. Motto")
         print("0. Exit")
 
-        user_choice = int(input("Enter your choice (1 or 2): "))
+        user_choice = int(input("Enter your choice: "))
 
         match (user_choice):
             case 1:
                 print("I love playing basketball, watching anime,"
                         + " and going to gym")
             case 2:
-                print("I once lost weight from 140kg to 95kg in just 6 months!")
+                print("I once lost weight from 140kg to 95kg in just 6 months")
             case 3:
                 print("'Keep pushing forward, no matter the obstacles!'")
             case 0: 
