@@ -1,6 +1,7 @@
 from os import system
 
 def bautista_profile():
+    """ Prints information about John Matthew Bautista """
     while (True):
         system('cls')
         print("Hello! I'm John Matthew Bautista")
@@ -21,7 +22,9 @@ def bautista_profile():
                         + "upang buhay ay sumigla'")
             case 0:
                 break
+            case _:
+                print("Error: Wrong Input")
 
-        input()
+        input("Press enter to continue")
                 
         
