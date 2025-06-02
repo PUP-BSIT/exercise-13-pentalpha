@@ -1,6 +1,7 @@
 from os import system
 
 def bautista_profile():
+    """ Print information about John Matthew Bautista"""
     while (True):
         system('cls')
         print("Hello! I'm John Matthew Bautista")
