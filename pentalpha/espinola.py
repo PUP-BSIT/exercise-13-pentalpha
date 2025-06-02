@@ -22,7 +22,5 @@ def espinola_profile():
                 print("Hard is part of life. Pick yours.")
             case 0:
                 break
-
+        
         input()
-
-espinola_profile()
