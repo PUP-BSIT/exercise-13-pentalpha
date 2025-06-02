@@ -1,6 +1,7 @@
 from os import system
 
 def who_am_i():
+    """Function to display information about John Mark E. Managbanag"""
     while (True):
         system("cls")
         print("Whatsupp my name is John Mark E. Managbanag")
@@ -22,7 +23,7 @@ def who_am_i():
             case 0: 
                 print("Goodbye!")
                 break
+            case _:
+                print("Invalid choice, please try again.")
 
         input("Press Enter to continue...")
-
-who_am_i()
