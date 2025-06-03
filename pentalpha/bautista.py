@@ -8,6 +8,7 @@ def bautista_profile():
         print("[1] - Hobbies")
         print("[2] - Fun Fact")
         print("[3] - Motto")  
+        print("[4] - Managbanag - Comment")
         print("[0] - Exit")
 
         menu_choice = int(input("Enter Choice: "))
@@ -20,6 +21,9 @@ def bautista_profile():
             case 3:
                 print("My motto in life is: 'Matulog ng maaga, "
                         + "upang buhay ay sumigla'")
+            case 4:
+                print("Wow! You are so good at drawing, John Matthew Bautista!")
+                print("Keep up the good work!")
             case 0:
                 break
             case _:
