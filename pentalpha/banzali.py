@@ -12,6 +12,7 @@ def banzali_profile():
         print("[3] Motto")
         print("[4] Managbanag - Comment")
         print("[5] Bautista - Comment")
+        print("[6] Raymundo - Comment")
         print("[0] Back to the Team Menu")
         print("==================================================")
 
@@ -54,6 +55,8 @@ def banzali_profile():
                 print("============================================")
                 print("You do too much sometimes. Just chill okay")
                 print("============================================")
+            case '6':
+                print("Definitely a cool skill to have up your sleeve.")
             case '0':
                 print("\nHeading back to the Team Menu...")
                 break
