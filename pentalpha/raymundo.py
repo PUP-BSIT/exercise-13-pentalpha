@@ -12,6 +12,7 @@ def raymundo_profile():
         print("[4] Managbanag - Comment")
         print("[5] Bautista - Comment")
         print("[6] Espinola's Comment")
+        print("[7] Banzali - Comment")
         print("[0] Exit")
         print("------------------------------------------")
 
@@ -52,6 +53,9 @@ def raymundo_profile():
             case "6":
                 system("cls")
                 print("Your profile is inspiring! - Espinola")
+            case "7":
+                system("cls")
+                print("You are talented and creative! Stay what you are.")
             case "0":
                 print("\nExiting Raymundo's module...\n")
                 break
