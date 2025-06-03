@@ -1,5 +1,5 @@
 from os import system
-from pentalpha import bautista, managbanag
+from pentalpha import bautista, managbanag, raymundo
 
 while (True):
     system('cls')
@@ -23,9 +23,7 @@ while (True):
             pass
         case 4:
             managbanag.managbanag_profile() 
-            pass
         case 5:
-            # TODO: (Raymundo) Call raymundo profile function
-            pass
+            raymundo.raymundo_profile()
         case 0:
             break

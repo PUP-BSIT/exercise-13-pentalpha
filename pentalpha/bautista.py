@@ -1,7 +1,6 @@
 from os import system
 
 def bautista_profile():
-    """ Prints information about John Matthew Bautista """
     while (True):
         system('cls')
         print("Hello! I'm John Matthew Bautista")
@@ -9,6 +8,7 @@ def bautista_profile():
         print("[2] - Fun Fact")
         print("[3] - Motto")  
         print("[4] - Managbanag - Comment")
+        print("[5] - Raymundo-comment")
         print("[0] - Exit")
 
         menu_choice = int(input("Enter Choice: "))
@@ -24,11 +24,11 @@ def bautista_profile():
             case 4:
                 print("Wow! You are so good at drawing, John Matthew Bautista!")
                 print("Keep up the good work!")
+            case 5:
+                print("Your motto is truly motivating.")
             case 0:
                 break
-            case _:
-                print("Error: Wrong Input")
 
-        input("Press enter to continue")
+        input()
                 
         
