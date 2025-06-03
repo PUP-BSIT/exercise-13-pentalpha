@@ -1,5 +1,5 @@
 from os import system
-from pentalpha import bautista, managbanag, raymundo
+from pentalpha import bautista, managbanag, raymundo, espinola
 
 while (True):
     system('cls')
@@ -19,8 +19,7 @@ while (True):
             # TODO: (Banzali) Call banzali profile function
             pass
         case 3:
-            # TODO: (Espinola) Call espinola profile function
-            pass
+            espinola.espinola_profile()
         case 4:
             managbanag.managbanag_profile() 
         case 5:
