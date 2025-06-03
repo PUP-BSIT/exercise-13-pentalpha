@@ -10,6 +10,7 @@ def managbanag_profile():
         print("3. Motto")
         print("4. Bautista - Comment")
         print("5. Raymundo-comment")
+        print("6. Espinola's Comment")
         print("0. Exit")
 
         user_choice = int(input("Enter your choice: "))
@@ -26,6 +27,8 @@ def managbanag_profile():
                 print("I miss your house hehe")
             case 5:
                 print("You’ve got some really cool hobbies there.")
+            case 6:
+                print("Your profile is admirable! - Espinola")
             case 0: 
                 print("Goodbye!")
                 break
