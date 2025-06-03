@@ -10,7 +10,8 @@ def espinola_profile():
         print("3. Motto")
         print("4. Managbanag - Comment")
         print("5. Bautista - Comment")
-        print("6. Raymundo-comment")
+        print("6. Raymundo - Comment")
+        print("7. Banzali - Comment")
         print("0. Exit\n")
 
         menu_choice = int(input("Enter your choice: "))
@@ -30,6 +31,8 @@ def espinola_profile():
                 print("Your training arc is just starting")
             case 6:
                 print("That’s such a heartfelt and meaningful goal.")
+            case 7: 
+                print("You are adventurous bro! Just always ride safely.")
             case 0:
                 break
             case _:

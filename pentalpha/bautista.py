@@ -8,8 +8,9 @@ def bautista_profile():
         print("[2] - Fun Fact")
         print("[3] - Motto") 
         print("[4] - Managbanag - Comment")
-        print("[5] - Raymundo-comment")
-        print("[6] - Espinola's Comment")  
+        print("[5] - Raymundo - Comment")
+        print("[6] - Espinola - Comment")  
+        print("[7] - Banzali - Comment")
         print("[0] - Exit")
 
         menu_choice = int(input("Enter Choice: "))
@@ -29,6 +30,8 @@ def bautista_profile():
                 print("Your motto is truly motivating.")
             case 6:
                 print("Your profile is interesting! - Espinola")
+            case 7:
+                print("Nice hobbies! Keep improving those talents.")                              
             case 0:
                 break
 
