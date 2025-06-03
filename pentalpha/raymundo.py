@@ -11,7 +11,7 @@ def raymundo_profile():
         print("[3] Motto")
         print("[4] Managbanag - Comment")
         print("[5] Bautista - Comment")
-        print("[6] Espinola's Comment")
+        print("[6] Espinola - Comment")
         print("[7] Banzali - Comment")
         print("[0] Exit")
         print("------------------------------------------")

@@ -10,7 +10,7 @@ def espinola_profile():
         print("3. Motto")
         print("4. Managbanag - Comment")
         print("5. Bautista - Comment")
-        print("6. Raymundo-comment")
+        print("6. Raymundo - Comment")
         print("7. Banzali - Comment")
         print("0. Exit\n")
 
